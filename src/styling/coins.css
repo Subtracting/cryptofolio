@@ -1,0 +1,25 @@
+.zoom-box {
+    transition: transform .2s; 
+  }
+  
+.zoom-box:hover {
+  transform: scale(1.15);
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.fav {
+  transition: transform .2s; 
+  border-width: 8px;
+  border-style: solid;
+  border-image: linear-gradient(to right, rgba(252, 249, 117, 0.87), rgba(255, 136, 0, 0.192)) 1;
+  border-radius: 10px;
+
+}
+
+.fav:hover {
+  transform: scale(1.15);
+}
